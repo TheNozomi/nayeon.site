@@ -11,3 +11,14 @@ body {
   background-size: cover;
 }
 </style>
+
+<script>
+import { defineComponent } from 'vue';
+
+export default defineComponent({
+  name: 'App',
+  mounted() {
+    alert('cagaste jajajajaj stan heejin uwu.');
+  }
+})
+</script>
